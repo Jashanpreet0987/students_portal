@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Assignment Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General body styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Header styles */
+        header {
+            background: #0078d7;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        /* Main content */
+        main {
+            margin: 2rem 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .upload-section, .download-section {
+            background: #fff;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="file"] {
+            margin-bottom: 1rem;
+        }
+
+        button {
+            background: #0078d7;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #005bb5;
+        }
+
+        /* File download list */
+        .download-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .download-section ul li {
+            margin: 0.5rem 0;
+        }
+
+        .download-section ul li a {
+            text-decoration: none;
+            color: #0078d7;
+        }
+
+        .download-section ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            background: #0078d7;
+            color: #fff;
+            padding: 0.5rem 0;
+            margin-top: 2rem;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header, footer {
+                text-align: center;
+            }
+
+            form {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Student Assignment Portal</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="download-section">
+                <h2>MS Word</h2>
+                <ul>
+                    <li>
+                        <a href="ucw/msword/Take-Home Assignment of W1.docx" download>Microsoft Word Home</a>
+                    </li>
+                    <li>
+                        <a href="ucw/msword/Take-Home Assignment of W1.docx" download>Microsoft Word Home</a>
+                    </li>
+                    <li>
+                        <a href="philosiphy/critical analysis essay.pdf" download aria-disabled="true">MS word Critical Analysis Eassy</a>
+                    </li>
+                </ul>
+                <h2>MS Excel</h2>
+                <ul>
+                    <li>
+                        <a href="ucw/msword/Take-Home Assignment of W1.docx" download>Microsoft Word Home</a>
+                    </li>
+                    <li>
+                        <a href="ucw/msword/Take-Home Assignment of W1.docx" download>Microsoft Word Home</a>
+                    </li>
+                    <li>
+                        <a href="philosiphy/critical analysis essay.pdf" download aria-disabled="true">MS word Critical Analysis Eassy</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Student Assignment Portal</p>
+        </div>
+    </footer>
+</body>
+</html>
